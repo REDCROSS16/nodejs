@@ -11,6 +11,10 @@ app.get('/json', (req, res) => {
     });
 });
 
+// app.post('/post', (req, res) => {
+//     res.send('Some TEXT to POST request')
+// });
+
 app.listen(3000, ()=> {
-    console.log('Example to listen posrt 3000');
+    console.log('Example to listen port 3000');
 });
